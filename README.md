@@ -23,7 +23,6 @@ Site pessoal em Next.js (App Router), pronto para GitHub e deploy na Vercel.
 - `app/page.jsx`: pagina principal
 - `app/globals.css`: estilos globais e responsividade
 - `public/`: imagens e audios estaticos
-- `vercel.json`: configuracao de deploy da Vercel
 
 ## Publicar no GitHub
 
