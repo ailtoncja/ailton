@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const DISCORD_USER_ID = "862901280653574205";
-const PROJECT_URL = "https://pitstophub.vercel.app/";
+const PROJECT_URL = "https://pitstophub.netlify.app/";
 
 const songs = [
   { songName: "Não Temos Medo", artistName: "Tz da Coronel", albumArt: "/black.png", audioSrc: "/track1.mp3" },
@@ -157,7 +157,7 @@ export default function HomePage() {
                 audioRef.current?.play().catch(() => {});
               }}
             >
-              <p className="entry-label">All glory of the god 🙏</p>
+              <p className="entry-label">{"All glory to god \u{1F64F}"}</p>
             </div>
           </div>
         </div>
@@ -289,3 +289,4 @@ export default function HomePage() {
     </>
   );
 }
+
