@@ -259,6 +259,7 @@ export default function HomePage() {
               }}
             >
               <p className="entry-label">{"All glory to god \u{1F64F}"}</p>
+              <p className="entry-hint">Clique em cima para continuar</p>
             </div>
           </div>
         </div>
